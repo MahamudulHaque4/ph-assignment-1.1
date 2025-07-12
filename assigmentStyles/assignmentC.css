@@ -1,4 +1,3 @@
-
 .open-sans-normal {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -7,21 +6,31 @@
     "width" 100;
 }
 
-/* common styles */
-.btn-primary{
+/*  Primary Button Style  */
+.btn-primary {
     background: #4E47FF;
     color: white;
-    padding: 20px;
+    /* padding: 20px; */
     border-radius: 10px;
     font-weight: 500;
     border: none;
+    padding: 15px 25px;
+    cursor: pointer;
+  transition: transform 0.3s ease, background-color 1s ease;
 }
 
-.btn-primary:hover{
-    color: white;
-    background-color: blueviolet;
-    transition-duration: 1s;
+/*  Hover Style  */
+.btn-primary:hover {
+  color: white;
+  background-color: rgb(226, 43, 153);
 }
+/*  Active State when Click */
+.btn-primary:active
+{
+  transform: scale(1.1); 
+}
+
+/* Common Description  */
 .common-description1{
     font-size:  24px;
     color: rgba(37, 36, 50, 0.5);
