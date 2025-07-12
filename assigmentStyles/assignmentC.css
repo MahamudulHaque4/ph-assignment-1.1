@@ -4,7 +4,7 @@
   font-optical-sizing: auto;
   font-style: normal;
   font-variation-settings:
-    "wdth" 100;
+    "width" 100;
 }
 
 
@@ -81,4 +81,57 @@
     font-weight: 800;
     font-size: 80px;
     margin-bottom: -30px;
+}
+
+/* Feedback Styles */
+.feedback{
+    margin: 120px 100px 80px 100px;
+}
+.feedback-title{
+    color: #252432;
+    font-size: 44px;
+    font-weight: 800;
+    text-align: center;
+}
+.feedback-primary-container{
+    display: flex;
+    justify-content: space-around;
+    gap : 30px;
+}
+.feedback-secondary-container
+{
+    padding: 20px;
+    display: flex;
+    background-color: #FFFFFF;
+    flex-direction: column;
+    border: 2px;
+    border-radius: 20px;
+}
+.users-review{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.user-review-image{
+    border-radius: 100%;
+}
+
+/* Focus Styles */
+.focus{
+    margin: 120px 120px 80px 120px;
+    padding: 30px 80px;
+    background-color: white;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.focus-title{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: none;
+}
+.focus-btn{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
