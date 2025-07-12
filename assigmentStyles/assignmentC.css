@@ -7,8 +7,28 @@
     "width" 100;
 }
 
+/* common styles */
+.btn-primary{
+    background: #4E47FF;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    font-weight: 500;
+    border: none;
+}
 
-/* Logo */
+.btn-primary:hover{
+    color: white;
+    background-color: blueviolet;
+    transition-duration: 1s;
+}
+.common-description1{
+    font-size:  24px;
+    color: rgba(37, 36, 50, 0.5);
+}
+
+
+
 /* Header styles */
 .navbar{
     padding: 40px 120px 10px 120px;
@@ -134,4 +154,59 @@
 .focus-btn{
     margin-top: 20px;
     margin-bottom: 20px;
+}
+.focus-image
+{
+    border-radius: 20px;
+}
+
+/* Get in touch styles */
+.get-in-touch{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 120px 120px 80px 120px;
+}
+.touch-title{
+    font-size: 90px;
+    font-weight: 800;
+}
+.input{
+    width: 400px;
+    height: 70px;
+    background-color: white;
+    border:1px solid #D6DDED;
+    padding: 0px 20px;
+    border-radius: 10px;
+}
+.input-textarea{
+    height: 130px;
+    padding-top: 20px;
+}
+
+/* Footer Style */
+.footer{
+    padding: 40px 120px;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-title{
+    font-family: "Inter";
+    font-size: 74px;
+    font-weight: 900;
+    color: #4E47FF;
+    margin-bottom: none;
+    padding-bottom: none;
+}
+.footer-links{
+    display: flex;
+    gap: 40px;
+   
+}
+.link{
+    text-decoration: none;
+    color: rgba(37,36,50,0.5);
 }
